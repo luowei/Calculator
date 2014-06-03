@@ -85,26 +85,128 @@ float runningTotal;
     if(runningTotal == 0){
         runningTotal = selectNumber;
     }else{
-        
+        switch (method) {
+            case 1:
+                runningTotal *= selectNumber;
+                break;
+            case 2:
+                runningTotal /= selectNumber;
+                break;
+            case 3:
+                runningTotal -= selectNumber;
+                break;
+            case 4:
+                runningTotal += selectNumber;
+                break;
+            default:
+                break;
+        }
     }
     method = 1;
+    selectNumber = 0;
 }
 - (IBAction)divide:(id)sender {
+    if(runningTotal == 0){
+        runningTotal = selectNumber;
+    }else{
+        switch (method) {
+            case 1:
+                runningTotal *= selectNumber;
+                break;
+            case 2:
+                runningTotal /= selectNumber;
+                break;
+            case 3:
+                runningTotal -= selectNumber;
+                break;
+            case 4:
+                runningTotal += selectNumber;
+                break;
+            default:
+                break;
+        }
+    }
     method = 2;
+    selectNumber = 0;
 }
 - (IBAction)subtract:(id)sender {
+    if(runningTotal == 0){
+        runningTotal = selectNumber;
+    }else{
+        switch (method) {
+            case 1:
+                runningTotal *= selectNumber;
+                break;
+            case 2:
+                runningTotal /= selectNumber;
+                break;
+            case 3:
+                runningTotal -= selectNumber;
+                break;
+            case 4:
+                runningTotal += selectNumber;
+                break;
+            default:
+                break;
+        }
+    }
     method = 3;
+    selectNumber = 0;
 }
 - (IBAction)plus:(id)sender {
+    if(runningTotal == 0){
+        runningTotal = selectNumber;
+    }else{
+        switch (method) {
+            case 1:
+                runningTotal *= selectNumber;
+                break;
+            case 2:
+                runningTotal /= selectNumber;
+                break;
+            case 3:
+                runningTotal -= selectNumber;
+                break;
+            case 4:
+                runningTotal += selectNumber;
+                break;
+            default:
+                break;
+        }
+    }
     method = 4;
+    selectNumber = 0;
 }
 - (IBAction)equals:(id)sender {
-    
+    if(runningTotal == 0){
+        runningTotal = selectNumber;
+    }else{
+        switch (method) {
+            case 1:
+                runningTotal *= selectNumber;
+                break;
+            case 2:
+                runningTotal /= selectNumber;
+                break;
+            case 3:
+                runningTotal -= selectNumber;
+                break;
+            case 4:
+                runningTotal += selectNumber;
+                break;
+            default:
+                break;
+        }
+    }
+    method = 0;
+    selectNumber = 0;
+    _screen.text = [NSString stringWithFormat:@"%.2f",runningTotal];
 }
 - (IBAction)AllClear:(id)sender {
     method = 0;
     runningTotal = 0;
     selectNumber = 0;
+    _screen.text = @"0";
 }
 
 @end

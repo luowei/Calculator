@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA7E4BD6193DFBFE002E3912 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = EA7E4BD5193DFBFE002E3912 /* README.md */; };
 		EA807474193DC7EC00999109 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA807473193DC7EC00999109 /* Foundation.framework */; };
 		EA807476193DC7EC00999109 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA807475193DC7EC00999109 /* CoreGraphics.framework */; };
 		EA807478193DC7EC00999109 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA807477193DC7EC00999109 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EA7E4BD5193DFBFE002E3912 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		EA807470193DC7EC00999109 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA807473193DC7EC00999109 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		EA807475193DC7EC00999109 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -82,6 +84,7 @@
 		EA807467193DC7EC00999109 = {
 			isa = PBXGroup;
 			children = (
+				EA7E4BD5193DFBFE002E3912 /* README.md */,
 				EA807479193DC7EC00999109 /* Calculator */,
 				EA807498193DC7EC00999109 /* CalculatorTests */,
 				EA807472193DC7EC00999109 /* Frameworks */,
@@ -230,6 +233,7 @@
 			files = (
 				EA80748C193DC7EC00999109 /* Images.xcassets in Resources */,
 				EA80747E193DC7EC00999109 /* InfoPlist.strings in Resources */,
+				EA7E4BD6193DFBFE002E3912 /* README.md in Resources */,
 				EA807487193DC7EC00999109 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +460,7 @@
 				EA8074A4193DC7EC00999109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA8074A5193DC7EC00999109 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +469,7 @@
 				EA8074A7193DC7EC00999109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
